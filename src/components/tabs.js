@@ -1,10 +1,10 @@
 const Tabs = (topics) => {
   // TASK 3
-  const topics = Array.prototype.slice.call(nodeList)
-  for(let i = 0; i < topics.length; i++){
-    topics[i] = document.createElement('div')
+  const array = Array.prototype.slice.call(nodeList)
+  for(let i = 0; i < array.length; i++){
+    array[i] = document.createElement('div')
     topics.classList.add('tab')
-    topics[i].textContent = `${topics[i]}`
+    array[i].textContent = `${array[i]}`
   }
   
   // Implement this function which takes an array of strings ("topics") as its only argument.

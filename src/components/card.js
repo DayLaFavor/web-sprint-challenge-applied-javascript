@@ -1,6 +1,21 @@
 const Card = (article) => {
   // TASK 5
-  // ---------------------
+   const card = document.createElement('div')
+   card.classList.add('card')
+
+   const headline = document.createElement('div')
+   headline.textContent = `${header}`
+
+   const author = document.createElement('div')
+   author.classList.add('author')
+
+   const img = document.createElement('div')
+   img.classList.add('authorPhoto')
+   image.src = article['img-container']
+
+   const authorName = document.createElement('span')
+   authorName.textContent = `${article['authorName']}`
+
   // Implement this function, which should return the markup you see below.
   // It takes as its only argument an "article" object with `headline`, `authorPhoto` and `authorName` properties.
   // The tags used, the hierarchy of elements and their attributes must match the provided markup exactly!
