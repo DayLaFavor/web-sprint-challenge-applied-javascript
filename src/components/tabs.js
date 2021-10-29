@@ -1,6 +1,7 @@
 const Tabs = (topics) => {
   // TASK 3
-  // ---------------------
+  const array = [];
+  array.forEach(create) 
   // Implement this function which takes an array of strings ("topics") as its only argument.
   // As an example, if the topics passed are ['javascript', 'bootstrap', 'technology']
   // then the function returns the markup below.
