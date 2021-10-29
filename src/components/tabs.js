@@ -1,7 +1,12 @@
 const Tabs = (topics) => {
   // TASK 3
-  const array = [];
-  array.forEach(create) 
+  const topics = Array.prototype.slice.call(nodeList)
+  for(let i = 0; i < topics.length; i++){
+    topics[i] = document.createElement('div')
+    topics.classList.add('tab')
+    topics[i].textContent = `${topics[i]}`
+  }
+  
   // Implement this function which takes an array of strings ("topics") as its only argument.
   // As an example, if the topics passed are ['javascript', 'bootstrap', 'technology']
   // then the function returns the markup below.
