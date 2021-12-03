@@ -34,13 +34,13 @@ const Header = (title, date, temp) => {
   //
 }
 
-const headerAppender = (selector) => {
+const headerAppender = (selectorHeader) => {
   // TASK 2
   const selector = document.createElement('header')
   selector.classList.add('header')
-  const selectorDate = document.querySelector(selector);
+  const selectorDate = document.querySelector(selectorHeader);
   selectorDate.appendChild(Header(
-    'Bloom Times', 'December 3, 2021', '4 degrees Celsius'
+    'Bloom Times Reports', '12/3/21', '4 degrees Celsius'
   ))
   // Implement this function taking a css selector as its only argument.
   // It should create a header using the Header component above, passing arguments of your choosing.
